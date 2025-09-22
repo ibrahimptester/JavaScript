@@ -1,0 +1,25 @@
+// Creating and Accessing Array
+
+let fruits = ["mango", "Banana", "Apple", "Grape"]
+console.log(fruits[0])
+
+// Array methods 
+// Pushing a object to the end of an array (Push)
+const language = ["JS", "PHP", "Python", "Bash", ".NET"]
+language.push("JAVA")
+console.log(language) // Java Added
+
+// Removing the last object of array (pop)
+language.pop();
+console.log(language) // JAVA gone
+
+// Removing first object of the array ( shift )
+language.shift();
+console.log(language) // "JS Removed"
+
+// Adding an object in the first place of array (unshift)
+language.unshift("JS")
+console.log(language) // JS Added
+
+// 
+
